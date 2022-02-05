@@ -60,23 +60,265 @@ Lab Report Grading Rubric
 *   Sufficient time spent in the lab
 *   Citation of any material that isn't your own (e.g. things you looked up on the Web, in literature; data from others in the class; be sure to list with whom you worked on the lab)
 
-| WEEK # | LAB TOPICS |
-| --- | --- |
-| {{< td-colspan 2 >}}**Part I: Electronics**{{< /td-colspan >}} ||
-| 0 | Lab orientation and tour, safety, introduction to electronics |
-| 1 | {{< h 3 >}}Module 0: introduction to electronics{{< /h >}}([PDF]({{< baseurl >}}/resources/module0)) {{< br >}}{{< br >}} Introduction to DC measurements, dividers, impedance, photodiode i-v curves, AC measurements, transfer functions, the Wheatstone bridge for temperature measurement {{< br >}}{{< br >}}  |
-| 2 | {{< h 3 >}}Module 1: measuring DNA melting curves{{< /h >}}([PDF]({{< baseurl >}}/resources/module1)) {{< br >}}{{< br >}} Build optics for DNA melting experiment, build photodiode readout circuit {{< br >}}{{< br >}} Calibrate fluorescence signal {{< br >}}{{< br >}} MATLAB® tutorial Part 1: the basics ([PDF]({{< baseurl >}}/resources/matlabintro)) {{< br >}}{{< br >}} MATLAB® tutorial Part 2: curve fitting, etc. ([PDF]({{< baseurl >}}/resources/matlabtutorialv2)) {{< br >}}{{< br >}}  |
-| 3 | {{< h 3 >}}Module 1 (cont.){{< /h >}} {{< br >}}{{< br >}} Complete DNA melting curves apparatus {{< br >}}{{< br >}} Test perfect-match, all-mismatch, and single-base mismatch DNA strands {{< br >}}{{< br >}}  |
-| {{< td-colspan 2 >}}**Part II: Mechanics**{{< /td-colspan >}} ||
-| 4 | {{< h 3 >}}Module 2: atomic force microscope{{< /h >}}([PDF]({{< baseurl >}}/resources/module2)) {{< br >}}{{< br >}} AFM alignment and calibration, AFM imaging I {{< br >}}{{< br >}}  |
-| 5 | {{< h 3 >}}Module 2 (cont.){{< /h >}} {{< br >}}{{< br >}} AFM imaging II {{< br >}}{{< br >}} Force spectroscopy {{< br >}}{{< br >}}  |
-| 6 | {{< h 3 >}}Module 2 (cont.){{< /h >}} {{< br >}}{{< br >}} Thermal fluctuations of microcantilevers: Boltzmann's constant experiment {{< br >}}{{< br >}} Lab exercise on sampling, aliasing, and digital data ([PDF]({{< baseurl >}}/resources/module2_5)) {{< br >}}{{< br >}}  |
-| {{< td-colspan 2 >}}**Part III: Optics**{{< /td-colspan >}} ||
-| 7 | Image processing with MATLAB® - see Homework 3 in [assignments]({{< baseurl >}}/pages/assignments) |
-| 8 | Optoelectronics: PMT and photon counting - see Homework 3.5 in [assignments]({{< baseurl >}}/pages/assignments) |
-| 9 | {{< h 3 >}}Module 3: fluorescence microscope construction{{< /h >}}([PDF]({{< baseurl >}}/resources/module3)) {{< br >}}{{< br >}} White light imaging and Fourier optics {{< br >}}{{< br >}}  |
-| 10 | {{< h 3 >}}Module 3 (cont.){{< /h >}} {{< br >}}{{< br >}} Live-cell imaging and microrheology {{< br >}}{{< br >}}  |
-| 11 | {{< h 3 >}}Module 3 (cont.){{< /h >}} {{< br >}}{{< br >}} Actin cytoskeleton imaging {{< br >}}{{< br >}}  |
-| 12 | {{< h 3 >}}Module 3 (cont.){{< /h >}} {{< br >}}{{< br >}} Finish construction, conduct experiments {{< br >}}{{< br >}} {{< h 3 >}}Module 4: optical trapping{{< /h >}}([PDF]({{< baseurl >}}/resources/module4)) |
-| 13 | {{< h 3 >}}Module 4 (cont.){{< /h >}} {{< br >}}{{< br >}} 3D imaging and visualization: two-photon microscopy {{< br >}}{{< br >}}  |
-| 14 | {{< h 3 >}}Module 4 (cont.){{< /h >}} {{< br >}}{{< br >}} 3D image-stack visualization, imageJ {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+WEEK #
+{{< thclose >}}
+{{< thopen >}}
+LAB TOPICS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="2" >}}
+**Part I: Electronics**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+Lab orientation and tour, safety, introduction to electronics
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 0: introduction to electronics
+
+([PDF]({{< baseurl >}}/resources/module0))
+
+Introduction to DC measurements, dividers, impedance, photodiode i-v curves, AC measurements, transfer functions, the Wheatstone bridge for temperature measurement
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 1: measuring DNA melting curves
+
+([PDF]({{< baseurl >}}/resources/module1))
+
+Build optics for DNA melting experiment, build photodiode readout circuit
+
+Calibrate fluorescence signal
+
+MATLAB® tutorial Part 1: the basics ([PDF]({{< baseurl >}}/resources/matlabintro))
+
+MATLAB® tutorial Part 2: curve fitting, etc. ([PDF]({{< baseurl >}}/resources/matlabtutorialv2))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 1 (cont.)
+
+Complete DNA melting curves apparatus
+
+Test perfect-match, all-mismatch, and single-base mismatch DNA strands
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="2" >}}
+**Part II: Mechanics**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 2: atomic force microscope
+
+([PDF]({{< baseurl >}}/resources/module2))
+
+AFM alignment and calibration, AFM imaging I
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 2 (cont.)
+
+AFM imaging II
+
+Force spectroscopy
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 2 (cont.)
+
+Thermal fluctuations of microcantilevers: Boltzmann's constant experiment
+
+Lab exercise on sampling, aliasing, and digital data ([PDF]({{< baseurl >}}/resources/module2_5))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="2" >}}
+**Part III: Optics**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Image processing with MATLAB® - see Homework 3 in [assignments]({{< baseurl >}}/pages/assignments)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Optoelectronics: PMT and photon counting - see Homework 3.5 in [assignments]({{< baseurl >}}/pages/assignments)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 3: fluorescence microscope construction
+
+([PDF]({{< baseurl >}}/resources/module3))
+
+White light imaging and Fourier optics
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 3 (cont.)
+
+Live-cell imaging and microrheology
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 3 (cont.)
+
+Actin cytoskeleton imaging
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 3 (cont.)
+
+Finish construction, conduct experiments
+
+### Module 4: optical trapping
+
+([PDF]({{< baseurl >}}/resources/module4))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 4 (cont.)
+
+3D imaging and visualization: two-photon microscopy
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Module 4 (cont.)
+
+3D image-stack visualization, imageJ
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

@@ -58,34 +58,553 @@ Lab attendance is mandatory and there are no make-up labs. A family crisis or se
 Grading
 -------
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Written reports for lab modules | 50% |
-| Oral presentation | 15% |
-| Homework assignments | 15% |
-| Lab quizzes | 10% |
-| Oral participation during lectures, student presentations and laboratory modules | 10% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Written reports for lab modules
+{{< tdclose >}}
+{{< tdopen >}}
+50%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Oral presentation
+{{< tdclose >}}
+{{< tdopen >}}
+15%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework assignments
+{{< tdclose >}}
+{{< tdopen >}}
+15%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab quizzes
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Oral participation during lectures, student presentations and laboratory modules
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Course Calendar
 ---------------
 
-| WEEK # | LEC # | LECTURE TOPICS | LAB TOPICS | KEY DATES |
-| --- | --- | --- | --- | --- |
-| {{< td-colspan 5 >}}**Part I: Electronics (Instructor - Scott Manalis)**{{< /td-colspan >}} |||||
-| 0 | 0 | Course overview, procedures, syllabus, scheduling | Lab orientation and tour, safety, introduction to electronics | &nbsp; |
-| 1 | 1-2 |  {{< br >}}{{< br >}} Electronics for DNA analysis; dividers, Thevenin's theorem, impedance and loading, RC circuits {{< br >}}{{< br >}} RC circuits: transfer functions, Laplace transforms, impedance, RC filters {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Lab orientation and tour, safety, introduction to electronics (cont.) {{< br >}}{{< br >}} Module 0: introduction to electronics {{< br >}}{{< br >}}  | &nbsp; |
-| 2 | 3-4 |  {{< br >}}{{< br >}} Feedback: Black's formula, the loop; Op-amps: "Golden Rules" and circuit examples {{< br >}}{{< br >}} DNA analysis: SNP detection, chemical equilibrium - K and DeltaG; description of DNA melting lab apparatus {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 1: measuring DNA melting curves {{< br >}}{{< br >}} Part I: build optics for DNA melting experiment, build photodiode readout circuit; calibrate fluorescence signal {{< br >}}{{< br >}}  | Homework 1 due in Lec #4 |
-| 3 | 5-6 |  {{< br >}}{{< br >}} Fourier series, integrals, Fourier transform (continuous/discrete) {{< br >}}{{< br >}} Fourier analysis (cont.) {{< br >}}{{< br >}} Evening session: student presentations 1 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 1: measuring DNA melting curves (cont.) {{< br >}}{{< br >}} Part II: complete DNA melting curves apparatus; test perfect-match, all-mismatch, and single-base mismatch DNA strands {{< br >}}{{< br >}}  | Student presentations 1 due |
-| {{< td-colspan 5 >}}**Part II: Mechanics (Instructor - Scott Manalis)**{{< /td-colspan >}} |||||
-| 4 |  {{< br >}}{{< br >}} 7-8 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Scanning probe microscopy {{< br >}}{{< br >}} Signals, noise, power spectral density {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 2: atomic force microscope {{< br >}}{{< br >}} Part I: AFM alignment and calibration, AFM imaging I {{< br >}}{{< br >}}  | Lab report 1 due one day after Lec #8 |
-| 5 | 9 | Correlation/convolution, lock-in amplification, linear systems |  {{< br >}}{{< br >}} Module 2: atomic force microscope (cont.) {{< br >}}{{< br >}} Part II: AFM imaging II; force spectroscopy {{< br >}}{{< br >}}  | Homework 2 due one day before Lec #9 |
-| 6 |  {{< br >}}{{< br >}} 10-11 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Equipartition theorem and thermal fluctuations {{< br >}}{{< br >}} Student presentations 2 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 2: atomic force microscope (cont.) {{< br >}}{{< br >}} Part III: thermal fluctuations of microcantilevers: Boltzmann's constant experiment {{< br >}}{{< br >}}  | Students presentations 2 due |
-| {{< td-colspan 5 >}}**Part III: Optics (Instructor - Peter So)**{{< /td-colspan >}} |||||
-| 7 |  {{< br >}}{{< br >}} 12-13 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Image processing I {{< br >}}{{< br >}} Image processing II {{< br >}}{{< br >}}  | Image processing with MATLAB® (linked to homework 3) | &nbsp; |
-| 8 |  {{< br >}}{{< br >}} 14-15 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Physical optics and optical instrumentation: detectors, noise {{< br >}}{{< br >}} Optical instrumentation: sources, lasers {{< br >}}{{< br >}}  | Optoelectronics: PMT and photon counting (linked to homework 3.5) |  {{< br >}}{{< br >}} Lab report 2 due one day before Lec #14 {{< br >}}{{< br >}} Homework 3 due one day after Lec #15 {{< br >}}{{< br >}}  |
-| 9 |  {{< br >}}{{< br >}} 16-17 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Introduction to microscopy: geometric optics, lenses, ray tracing {{< br >}}{{< br >}} Interference and diffraction, resolution in microscopy, Fourier optics {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 3: fluorescence microscope construction {{< br >}}{{< br >}} Part I: White light imaging and Fourier optics {{< br >}}{{< br >}}  | Homework 3.5 due in Lec #16 |
-| 10 | 18-19 |  {{< br >}}{{< br >}} Fluorescence microscopy {{< br >}}{{< br >}} Active microrheology {{< br >}}{{< br >}} Evening session: student presentations 3 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 3: fluorescence microscope construction (cont.) {{< br >}}{{< br >}} Part II: live-cell imaging and microrheology {{< br >}}{{< br >}}  | Students presentations 3 due |
-| 11 | 20 | Passive microrheology and particle tracking |  {{< br >}}{{< br >}} Module 3: fluorescence microscope construction (cont.) {{< br >}}{{< br >}} Part III: actin cytoskeleton imaging {{< br >}}{{< br >}}  | &nbsp; |
-| 12 | 21-22 |  {{< br >}}{{< br >}} Optical trapping \[Instructor: Prof. Matt Lang\] {{< br >}}{{< br >}} Advanced fluorescence microscopy {{< br >}}{{< br >}} Evening session: student presentations 4 {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 3: fluorescence microscope construction (cont.) and experiments {{< br >}}{{< br >}} Module 4: optical trapping {{< br >}}{{< br >}}  | Student presentations 4 due |
-| 13 | 23-24 |  {{< br >}}{{< br >}} 3D microscopy: confocal imaging {{< br >}}{{< br >}} 3D microscopy: two-photon microscopy, 3D image processing {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Module 4: optical trapping (cont.) {{< br >}}{{< br >}} 3D imaging and visualization: two-photon microscopy {{< br >}}{{< br >}}  | Lab report 3 due one day before Lec #23 |
-| 14 | 25 | Student presentations 5 |  {{< br >}}{{< br >}} 3D image-stack visualization, imageJ {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Lab report 4 due one day before Lec #25 {{< br >}}{{< br >}} Student presentations 5 due {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+WEEK #
+{{< thclose >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+LECTURE TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LAB TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part I: Electronics (Instructor - Scott Manalis)**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+Course overview, procedures, syllabus, scheduling
+{{< tdclose >}}
+{{< tdopen >}}
+Lab orientation and tour, safety, introduction to electronics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+1-2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Electronics for DNA analysis; dividers, Thevenin's theorem, impedance and loading, RC circuits
+
+RC circuits: transfer functions, Laplace transforms, impedance, RC filters
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lab orientation and tour, safety, introduction to electronics (cont.)
+
+Module 0: introduction to electronics
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+3-4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Feedback: Black's formula, the loop; Op-amps: "Golden Rules" and circuit examples
+
+DNA analysis: SNP detection, chemical equilibrium - K and DeltaG; description of DNA melting lab apparatus
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 1: measuring DNA melting curves
+
+Part I: build optics for DNA melting experiment, build photodiode readout circuit; calibrate fluorescence signal
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 due in Lec #4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+5-6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Fourier series, integrals, Fourier transform (continuous/discrete)
+
+Fourier analysis (cont.)
+
+Evening session: student presentations 1
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 1: measuring DNA melting curves (cont.)
+
+Part II: complete DNA melting curves apparatus; test perfect-match, all-mismatch, and single-base mismatch DNA strands
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Student presentations 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part II: Mechanics (Instructor - Scott Manalis)**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+7-8
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scanning probe microscopy
+
+Signals, noise, power spectral density
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 2: atomic force microscope
+
+Part I: AFM alignment and calibration, AFM imaging I
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab report 1 due one day after Lec #8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Correlation/convolution, lock-in amplification, linear systems
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 2: atomic force microscope (cont.)
+
+Part II: AFM imaging II; force spectroscopy
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 due one day before Lec #9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+10-11
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Equipartition theorem and thermal fluctuations
+
+Student presentations 2
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 2: atomic force microscope (cont.)
+
+Part III: thermal fluctuations of microcantilevers: Boltzmann's constant experiment
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Students presentations 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part III: Optics (Instructor - Peter So)**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+12-13
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Image processing I
+
+Image processing II
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Image processing with MATLAB® (linked to homework 3)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+14-15
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Physical optics and optical instrumentation: detectors, noise
+
+Optical instrumentation: sources, lasers
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Optoelectronics: PMT and photon counting (linked to homework 3.5)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lab report 2 due one day before Lec #14
+
+Homework 3 due one day after Lec #15
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+16-17
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction to microscopy: geometric optics, lenses, ray tracing
+
+Interference and diffraction, resolution in microscopy, Fourier optics
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 3: fluorescence microscope construction
+
+Part I: White light imaging and Fourier optics
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3.5 due in Lec #16
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+18-19
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Fluorescence microscopy
+
+Active microrheology
+
+Evening session: student presentations 3
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 3: fluorescence microscope construction (cont.)
+
+Part II: live-cell imaging and microrheology
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Students presentations 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Passive microrheology and particle tracking
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 3: fluorescence microscope construction (cont.)
+
+Part III: actin cytoskeleton imaging
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+21-22
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Optical trapping \[Instructor: Prof. Matt Lang\]
+
+Advanced fluorescence microscopy
+
+Evening session: student presentations 4
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 3: fluorescence microscope construction (cont.) and experiments
+
+Module 4: optical trapping
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Student presentations 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+23-24
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+3D microscopy: confocal imaging
+
+3D microscopy: two-photon microscopy, 3D image processing
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Module 4: optical trapping (cont.)
+
+3D imaging and visualization: two-photon microscopy
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab report 3 due one day before Lec #23
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Student presentations 5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+3D image-stack visualization, imageJ
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Lab report 4 due one day before Lec #25
+
+Student presentations 5 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

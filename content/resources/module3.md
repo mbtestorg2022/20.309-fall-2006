@@ -6,6 +6,7 @@ description: Lab exercise on fluorescence microscope construction, major microsc
   actin cytoskeleton.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/a680299365123dbda752e02113b97e99_module3.pdf
 file_type: application/pdf
+parent_uid: 14199d62-da87-c70f-bae4-6d0285c23fa0
 resourcetype: Document
 title: module3.pdf
 uid: a6802993-6512-3dbd-a752-e02113b97e99

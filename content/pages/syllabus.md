@@ -28,7 +28,7 @@ We emphasize design and building – several of the setups, such as the DNA melt
 Prerequisites
 -------------
 
-[18.03](/courses/18-03-differential-equations-spring-2010/pages/index.htm)
+[18.03](/courses/18-03-differential-equations-spring-2010)
 
 Assignments
 -----------

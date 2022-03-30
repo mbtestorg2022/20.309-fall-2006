@@ -5,6 +5,7 @@ description: 'Lab supplement containing MATLAB? scripts for calculating MSD and 
   and GetMSD.m.)'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/21dc8b8aad27a7487c304087aa8a8c49_20309_matlab.zip
 file_type: application/zip
+parent_uid: 97d5e097-466d-1a3d-3330-a6c5d05c1cdc
 resourcetype: Other
 title: 20309_matlab.zip
 uid: 21dc8b8a-ad27-a748-7c30-4087aa8a8c49
